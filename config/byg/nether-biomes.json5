@@ -91,6 +91,30 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "byg:arisian_undergrowth",
 				"weight": 0
+			},
+			{
+				"data": "infernalexp:glowstone_canyon",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:crystalline_chasm",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:erupting_inferno",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:visceral_heap",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:withered_abyss",
+				"weight": 2
 			}
 		]
 	},
@@ -179,6 +203,30 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "byg:arisian_undergrowth",
 				"weight": 2
+			},
+			{
+				"data": "infernalexp:glowstone_canyon",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:crystalline_chasm",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:erupting_inferno",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:visceral_heap",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:withered_abyss",
+				"weight": 2
 			}
 		]
 	},
@@ -251,6 +299,30 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:arisian_undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "infernalexp:glowstone_canyon",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:crystalline_chasm",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:erupting_inferno",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:visceral_heap",
+				"weight": 2
+			},
+			{
+				"data": "biomesoplenty:withered_abyss",
 				"weight": 2
 			}
 		]

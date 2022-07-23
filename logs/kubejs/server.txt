@@ -1,0 +1,152 @@
+[15:43:16] [INFO ] Loaded script server_scripts:constants.js in 0.01 s
+[15:43:16] [INFO ] Loaded script server_scripts:tags.js in 0.002 s
+[15:43:16] [INFO ] Loaded script server_scripts:unify.js in 0.009 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/ae/ae.js in 0.0 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/angelring/angelring.js in 0.0 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/buildinggadgets/buildinggadgets.js in 0.001 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/computercraft/computercraft.js in 0.0 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/entangled/entangled.js in 0.001 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/explorers_compass/explorers_compass.js in 0.0 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/mininggadgets/mininggadgets.js in 0.0 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/mystical_agriculture/ma_crafting.js in 0.001 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/mystical_agriculture/ma_crops.js in 0.001 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/quarryplus/quarryplus.js in 0.001 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/refinedstorage/refinedstorage.js in 0.001 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/rftools/rftools.js in 0.0 s
+[15:43:16] [INFO ] Loaded script server_scripts:mod_specific/_allthemods/allthemodium.js in 0.001 s
+[15:43:16] [INFO ] Loaded script server_scripts:stonecutting.js in 0.001 s
+[15:43:16] [INFO ] Loaded 17/17 KubeJS server scripts in 0.042 s
+[15:43:16] [INFO ] Scripts loaded
+[15:43:16] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[15:43:16] [INFO ] Scanning recipes...
+[15:43:27] [INFO ] [entity_types] Found 92 tags, added 26 objects, removed 0 objects
+[15:43:32] [INFO ] [blocks] Found 1406 tags, added 24 objects, removed 0 objects
+[15:43:32] [INFO ] [blocks] Found 1406 tags, added 24 objects, removed 0 objects
+[15:43:41] [INFO ] [items] Found 2872 tags, added 111 objects, removed 1 objects
+[15:43:41] [INFO ] [items] Found 2872 tags, added 111 objects, removed 1 objects
+[15:44:05] [WARN ] Failed to parse recipe 'create_stuff_additions:brass_moped_recipe[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create:furnace_engine'
+[15:44:05] [WARN ] Failed to parse recipe create_stuff_additions:brass_moped_recipe[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'create:furnace_engine'
+[15:44:05] [WARN ] Failed to parse recipe 'duneons:craftdiamonddungeonpickaxe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:diamonddungeonpickaxe'
+[15:44:05] [WARN ] Failed to parse recipe duneons:craftdiamonddungeonpickaxe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:diamonddungeonpickaxe'
+[15:44:05] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_emerald[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/emerald","count":2} is not a valid result!
+[15:44:05] [WARN ] Failed to parse recipe 'duneons:craftiron[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
+[15:44:05] [WARN ] Failed to parse recipe duneons:craftiron[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
+[15:44:05] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_aluminum[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/aluminum","count":4} is not a valid result!
+[15:44:05] [WARN ] Failed to parse recipe 'biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
+[15:44:05] [WARN ] Failed to parse recipe biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
+[15:44:05] [WARN ] Failed to parse recipe 'allthemodium:create/splashing/allthemodium[create:splashing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_allthemodium_ore'
+[15:44:05] [WARN ] Failed to parse recipe allthemodium:create/splashing/allthemodium[create:splashing]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_allthemodium_ore'
+[15:44:05] [WARN ] Failed to parse recipe 'allthemodium:create/splashing/vibranium[create:splashing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_vibranium_ore'
+[15:44:05] [WARN ] Failed to parse recipe allthemodium:create/splashing/vibranium[create:splashing]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_vibranium_ore'
+[15:44:05] [WARN ] Failed to parse recipe 'duneons:craftruby2[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:rubyblock'
+[15:44:05] [WARN ] Failed to parse recipe duneons:craftruby2[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:rubyblock'
+[15:44:05] [WARN ] Failed to parse recipe 'advgenerators:modules/gas_input[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'advgenerators:gas_input'
+[15:44:05] [WARN ] Failed to parse recipe advgenerators:modules/gas_input[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'advgenerators:gas_input'
+[15:44:05] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_diamond[integrateddynamics:squeezer]': {"tag":"forge:gems/diamond"} is not a valid result!
+[15:44:05] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/dust_coal[integrateddynamics:mechanical_squeezer]': {"tag":"forge:dusts/coal"} is not a valid result!
+[15:44:05] [WARN ] Failed to parse recipe 'duneons:logcoconutcraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:logcoconut'
+[15:44:05] [WARN ] Failed to parse recipe duneons:logcoconutcraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:logcoconut'
+[15:44:05] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_emerald[integrateddynamics:squeezer]': {"tag":"forge:gems/emerald"} is not a valid result!
+[15:44:05] [WARN ] Failed to parse recipe 'create_stuff_additions:refined_radiance_exoskeleton_recipe[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'
+[15:44:05] [WARN ] Failed to parse recipe create_stuff_additions:refined_radiance_exoskeleton_recipe[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'
+[15:44:05] [WARN ] Failed to parse recipe 'pneumaticcraft:drone_interface[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[15:44:05] [WARN ] Failed to parse recipe pneumaticcraft:drone_interface[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[15:44:05] [WARN ] Failed to parse recipe 'duneons:craftbootsguard[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:05] [WARN ] Failed to parse recipe duneons:craftbootsguard[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:05] [WARN ] Failed to parse recipe 'duneons:ironcraftore[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
+[15:44:05] [WARN ] Failed to parse recipe duneons:ironcraftore[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
+[15:44:05] [WARN ] Failed to parse recipe 'duneons:guardchestplatecraft[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:05] [WARN ] Failed to parse recipe duneons:guardchestplatecraft[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:05] [WARN ] Failed to parse recipe 'mekanism:metallurgic_infusing/allthecompressed/iron/1x_to_1x_steel[mekanism:metallurgic_infusing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing chemicalInput, expected to find a JsonObject
+[15:44:05] [WARN ] Failed to parse recipe mekanism:metallurgic_infusing/allthecompressed/iron/1x_to_1x_steel[mekanism:metallurgic_infusing]: com.google.gson.JsonSyntaxException: Missing chemicalInput, expected to find a JsonObject
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_lapis[integrateddynamics:squeezer]': {"tag":"forge:gems/lapis","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:craftgold[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
+[15:44:06] [WARN ] Failed to parse recipe duneons:craftgold[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_silver[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/silver","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'create_confectionery:chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[15:44:06] [WARN ] Failed to parse recipe create_confectionery:chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_aluminum[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/aluminum","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_lead[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/lead","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:create/splashing/unobtainium[create:splashing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_unobtainium_ore'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:create/splashing/unobtainium[create:splashing]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_unobtainium_ore'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_tin[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/tin","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_lead[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/lead","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gold_nugget_blackstone[integrateddynamics:squeezer]': {"tag":"forge:nuggets/gold","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_gold[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/gold","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'pneumaticcraft:radiation_shield_mekanism[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[15:44:06] [WARN ] Failed to parse recipe pneumaticcraft:radiation_shield_mekanism[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:mek_processing/vibranium/ingot/from_crushed_smelting[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_vibranium_ore'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:mek_processing/vibranium/ingot/from_crushed_smelting[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_vibranium_ore'
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:endstone'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:mek_processing/unobtainium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:endstone'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gold_nugget_blackstone[integrateddynamics:mechanical_squeezer]': {"tag":"forge:nuggets/gold","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_iron[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/iron","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_gold[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/gold","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:rubycraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
+[15:44:06] [WARN ] Failed to parse recipe duneons:rubycraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_tin[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/tin","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_uranium[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/uranium","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:craftbarrelbeer[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
+[15:44:06] [WARN ] Failed to parse recipe duneons:craftbarrelbeer[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_iron[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/iron","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_silver[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/silver","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_platinum[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/platinum","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:rubyblockcraft1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
+[15:44:06] [WARN ] Failed to parse recipe duneons:rubyblockcraft1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_quartz[integrateddynamics:squeezer]': {"tag":"forge:gems/quartz","count":2} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:hatguard[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:06] [WARN ] Failed to parse recipe duneons:hatguard[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:goldorecraft[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
+[15:44:06] [WARN ] Failed to parse recipe duneons:goldorecraft[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/dust_obsidian[integrateddynamics:mechanical_squeezer]': {"tag":"forge:dusts/obsidian","count":2} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:opuletcraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:opulentarmor_helmet'
+[15:44:06] [WARN ] Failed to parse recipe duneons:opuletcraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:opulentarmor_helmet'
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/ingot/from_crushed_blasting[minecraft:blasting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_unobtainium_ore'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:mek_processing/unobtainium/ingot/from_crushed_blasting[minecraft:blasting]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_unobtainium_ore'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_copper[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/copper","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:mek_processing/vibranium/ingot/from_crushed_blasting[minecraft:blasting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_vibranium_ore'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:mek_processing/vibranium/ingot/from_crushed_blasting[minecraft:blasting]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_vibranium_ore'
+[15:44:06] [WARN ] Failed to parse recipe 'create_confectionery:black_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[15:44:06] [WARN ] Failed to parse recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/dust_coal[integrateddynamics:squeezer]': {"tag":"forge:dusts/coal"} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:craftswordlot[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
+[15:44:06] [WARN ] Failed to parse recipe duneons:craftswordlot[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
+[15:44:06] [WARN ] Failed to parse recipe 'mysticalagriculture:essence/chisel/limestone[cucumber:shaped_no_mirror]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'chisel:limestone/raw'
+[15:44:06] [WARN ] Failed to parse recipe mysticalagriculture:essence/chisel/limestone[cucumber:shaped_no_mirror]: com.google.gson.JsonSyntaxException: Unknown item 'chisel:limestone/raw'
+[15:44:06] [WARN ] Failed to parse recipe 'create_confectionery:white_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[15:44:06] [WARN ] Failed to parse recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_osmium[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/osmium","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_quartz[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/quartz","count":3} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_nickel[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/nickel","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:sapfireswordcraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:sapfirevert'
+[15:44:06] [WARN ] Failed to parse recipe duneons:sapfireswordcraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:sapfirevert'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/dust_obsidian[integrateddynamics:squeezer]': {"tag":"forge:dusts/obsidian"} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_osmium[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/osmium","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_copper[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/copper","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_lapis[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/lapis","count":12} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/ingot/from_crushed_smelting[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_unobtainium_ore'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:mek_processing/unobtainium/ingot/from_crushed_smelting[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_unobtainium_ore'
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:bamboo_wood_planks_recipe[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
+[15:44:06] [WARN ] Failed to parse recipe duneons:bamboo_wood_planks_recipe[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_diamond[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/diamond","count":2} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_zinc[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/zinc","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_platinum[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/platinum","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'create_confectionery:ruby_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[15:44:06] [WARN ] Failed to parse recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/ingot/from_crushed_smelting[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_allthemodium_ore'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:mek_processing/allthemodium/ingot/from_crushed_smelting[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_allthemodium_ore'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_zinc[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/zinc","count":4} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_nickel[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/nickel","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_prismarine[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/prismarine"} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:axecraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:06] [WARN ] Failed to parse recipe duneons:axecraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:06] [WARN ] Failed to parse recipe 'duneons:craftknightchestplate[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:06] [WARN ] Failed to parse recipe duneons:craftknightchestplate[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
+[15:44:06] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_uranium[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/uranium","count":8} is not a valid result!
+[15:44:06] [WARN ] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/ingot/from_crushed_blasting[minecraft:blasting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_allthemodium_ore'
+[15:44:06] [WARN ] Failed to parse recipe allthemodium:mek_processing/allthemodium/ingot/from_crushed_blasting[minecraft:blasting]: com.google.gson.JsonSyntaxException: Unknown item 'allthemodium:crushed_allthemodium_ore'
+[15:44:06] [INFO ] Found 27560 recipes and 0 failed recipes in 1.261 s
+[15:44:12] [INFO ] Posted recipe events in 5.766 s
+[15:44:13] [INFO ] Modified & removed recipes in 474.9 ms
+[15:44:13] [INFO ] Added recipes in 18.22 ms
+[15:44:13] [INFO ] Added 723 recipes, removed 774 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
