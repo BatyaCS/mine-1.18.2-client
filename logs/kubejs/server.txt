@@ -1,558 +1,515 @@
-[18:38:34] [INFO ] Loaded script server_scripts:constants.js in 0.005 s
-[18:38:34] [INFO ] Loaded script server_scripts:tags.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:unify.js in 0.01 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/ae/ae.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/angelring/angelring.js in 0.0 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/buildinggadgets/buildinggadgets.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/computercraft/computercraft.js in 0.0 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/entangled/entangled.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/explorers_compass/explorers_compass.js in 0.0 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/mininggadgets/mininggadgets.js in 0.0 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/mystical_agriculture/ma_crafting.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/mystical_agriculture/ma_crops.js in 0.002 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/quarryplus/quarryplus.js in 0.0 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/refinedstorage/refinedstorage.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/rftools/rftools.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:mod_specific/_allthemods/allthemodium.js in 0.001 s
-[18:38:34] [INFO ] Loaded script server_scripts:stonecutting.js in 0.001 s
-[18:38:34] [INFO ] Loaded 17/17 KubeJS server scripts in 0.036 s
-[18:38:34] [INFO ] Scripts loaded
-[18:38:34] [INFO ] Scanning recipes...
-[18:38:44] [ERR  ] Error occurred while handling event 'tags.entity_types': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:entity_type]: ResourceKey[minecraft:entity_type / artifacts:mimic] (server_scripts:tags.js#42)
-[18:38:44] [INFO ] [entity_types] Found 55 tags, added 25 objects, removed 0 objects
-[18:38:46] [ERR  ] Error occurred while handling event 'tags.blocks': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:block]: ResourceKey[minecraft:block / waystones:waystone] (server_scripts:tags.js#3)
-[18:38:46] [INFO ] [blocks] Found 752 tags, added 21 objects, removed 0 objects
-[18:38:46] [INFO ] [blocks] Found 752 tags, added 21 objects, removed 0 objects
-[18:38:47] [ERR  ] Error occurred while handling event 'tags.items': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:item]: ResourceKey[minecraft:item / mysticalagradditions:insanium_farmland] (server_scripts:tags.js#7)
-[18:38:56] [WARN ] Failed to parse recipe 'create_stuff_additions:brass_moped_recipe[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create:furnace_engine'
-[18:38:56] [WARN ] Failed to parse recipe create_stuff_additions:brass_moped_recipe[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'create:furnace_engine'
-[18:38:56] [WARN ] Failed to parse recipe 'mekanism:processing/bronze/ingot/from_infusing[mekanism:metallurgic_infusing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_ingot'
-[18:38:56] [WARN ] Failed to parse recipe mekanism:processing/bronze/ingot/from_infusing[mekanism:metallurgic_infusing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_ingot'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:craftdiamonddungeonpickaxe[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:diamonddungeonpickaxe'
-[18:38:56] [WARN ] Failed to parse recipe duneons:craftdiamonddungeonpickaxe[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:diamonddungeonpickaxe'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_emerald[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/emerald","count":2} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:craftiron[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
-[18:38:56] [WARN ] Failed to parse recipe duneons:craftiron[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:hatguard[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:56] [WARN ] Failed to parse recipe duneons:hatguard[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:goldorecraft[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
-[18:38:56] [WARN ] Failed to parse recipe duneons:goldorecraft[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_aluminum[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/aluminum","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
-[18:38:56] [WARN ] Failed to parse recipe biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:craftruby2[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:rubyblock'
-[18:38:56] [WARN ] Failed to parse recipe duneons:craftruby2[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:rubyblock'
-[18:38:56] [WARN ] Failed to parse recipe 'mekanism:processing/bronze/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
-[18:38:56] [WARN ] Failed to parse recipe mekanism:processing/bronze/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_diamond[integrateddynamics:squeezer]': {"tag":"forge:gems/diamond"} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/dust_coal[integrateddynamics:mechanical_squeezer]': {"tag":"forge:dusts/coal"} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:logcoconutcraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:logcoconut'
-[18:38:56] [WARN ] Failed to parse recipe duneons:logcoconutcraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:logcoconut'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/dust_obsidian[integrateddynamics:mechanical_squeezer]': {"tag":"forge:dusts/obsidian","count":2} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:opuletcraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:opulentarmor_helmet'
-[18:38:56] [WARN ] Failed to parse recipe duneons:opuletcraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:opulentarmor_helmet'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_copper[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/copper","count":8} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_emerald[integrateddynamics:squeezer]': {"tag":"forge:gems/emerald"} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'create_stuff_additions:refined_radiance_exoskeleton_recipe[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'
-[18:38:56] [WARN ] Failed to parse recipe create_stuff_additions:refined_radiance_exoskeleton_recipe[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'
-[18:38:56] [WARN ] Failed to parse recipe 'bonsaitrees3:sapling/allthemodium/demonic[bonsaitrees3:sapling]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:sapling
-[18:38:56] [WARN ] Failed to parse recipe bonsaitrees3:sapling/allthemodium/demonic[bonsaitrees3:sapling]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:sapling'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:craftbootsguard[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:56] [WARN ] Failed to parse recipe duneons:craftbootsguard[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:ironcraftore[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
-[18:38:56] [WARN ] Failed to parse recipe duneons:ironcraftore[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthenironore'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:guardchestplatecraft[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:56] [WARN ] Failed to parse recipe duneons:guardchestplatecraft[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:56] [WARN ] Failed to parse recipe 'create_confectionery:black_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
-[18:38:56] [WARN ] Failed to parse recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/dust_coal[integrateddynamics:squeezer]': {"tag":"forge:dusts/coal"} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:craftswordlot[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
-[18:38:56] [WARN ] Failed to parse recipe duneons:craftswordlot[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
-[18:38:56] [WARN ] Failed to parse recipe 'bonsaitrees3:soil/allthemodium/ancient_grass[bonsaitrees3:soil]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:soil
-[18:38:56] [WARN ] Failed to parse recipe bonsaitrees3:soil/allthemodium/ancient_grass[bonsaitrees3:soil]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:soil'
-[18:38:56] [WARN ] Failed to parse recipe 'mekanism:processing/steel/enriched_iron_to_dust[mekanism:metallurgic_infusing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
-[18:38:56] [WARN ] Failed to parse recipe mekanism:processing/steel/enriched_iron_to_dust[mekanism:metallurgic_infusing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
-[18:38:56] [WARN ] Failed to parse recipe 'create_confectionery:white_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
-[18:38:56] [WARN ] Failed to parse recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_lapis[integrateddynamics:squeezer]': {"tag":"forge:gems/lapis","count":8} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_osmium[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/osmium","count":8} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:craftgold[minecraft:smelting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
-[18:38:56] [WARN ] Failed to parse recipe duneons:craftgold[minecraft:smelting]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengthengoldore'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_silver[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/silver","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_quartz[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/quartz","count":3} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_nickel[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/nickel","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'silentgear:azure_silver_dust_smelting[minecraft:smelting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
-[18:38:56] [WARN ] Failed to parse recipe silentgear:azure_silver_dust_smelting[minecraft:smelting]:
-[18:38:56] [ERR  ] java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
-[18:38:56] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
-[18:38:56] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
-[18:38:56] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[18:38:56] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
-[18:38:56] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[18:38:56] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[18:38:56] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205185_(Minecraft.java:1876)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_100972_(CreateWorldScreen.java:246)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.Button.m_5691_(Button.java:40)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:16)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:111)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[18:38:56] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[18:38:56] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
-[18:38:56] [WARN ] Failed to parse recipe 'silentgear:crimson_iron_dust_smelting[minecraft:smelting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
-[18:38:56] [WARN ] Failed to parse recipe silentgear:crimson_iron_dust_smelting[minecraft:smelting]:
-[18:38:56] [ERR  ] java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
-[18:38:56] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
-[18:38:56] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
-[18:38:56] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[18:38:56] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
-[18:38:56] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[18:38:56] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[18:38:56] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205185_(Minecraft.java:1876)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_100972_(CreateWorldScreen.java:246)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.Button.m_5691_(Button.java:40)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:16)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:111)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[18:38:56] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[18:38:56] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
-[18:38:56] [WARN ] Failed to parse recipe 'mekanism:processing/bronze/dust/from_infusing[mekanism:metallurgic_infusing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
-[18:38:56] [WARN ] Failed to parse recipe mekanism:processing/bronze/dust/from_infusing[mekanism:metallurgic_infusing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:sapfireswordcraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:sapfirevert'
-[18:38:56] [WARN ] Failed to parse recipe duneons:sapfireswordcraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:sapfirevert'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/dust_obsidian[integrateddynamics:squeezer]': {"tag":"forge:dusts/obsidian"} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'mekanism:processing/steel/ingot_to_dust[mekanism:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
-[18:38:56] [WARN ] Failed to parse recipe mekanism:processing/steel/ingot_to_dust[mekanism:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
-[18:38:56] [WARN ] Failed to parse recipe 'bonsaitrees3:sapling/allthemodium/ancient[bonsaitrees3:sapling]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:sapling
-[18:38:56] [WARN ] Failed to parse recipe bonsaitrees3:sapling/allthemodium/ancient[bonsaitrees3:sapling]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:sapling'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_osmium[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/osmium","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'create_confectionery:chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
-[18:38:56] [WARN ] Failed to parse recipe create_confectionery:chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_aluminum[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/aluminum","count":8} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_lead[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/lead","count":8} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_tin[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/tin","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_copper[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/copper","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'bonsaitrees3:soil/allthemodium/ancient_dirt[bonsaitrees3:soil]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:soil
-[18:38:56] [WARN ] Failed to parse recipe bonsaitrees3:soil/allthemodium/ancient_dirt[bonsaitrees3:soil]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:soil'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_lapis[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/lapis","count":12} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'duneons:bamboo_wood_planks_recipe[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
-[18:38:56] [WARN ] Failed to parse recipe duneons:bamboo_wood_planks_recipe[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
-[18:38:56] [WARN ] Failed to parse recipe 'silentgear:crimson_iron_dust_blasting[minecraft:blasting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
-[18:38:56] [WARN ] Failed to parse recipe silentgear:crimson_iron_dust_blasting[minecraft:blasting]:
-[18:38:56] [ERR  ] java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
-[18:38:56] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
-[18:38:56] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
-[18:38:56] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[18:38:56] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
-[18:38:56] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[18:38:56] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[18:38:56] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205185_(Minecraft.java:1876)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_100972_(CreateWorldScreen.java:246)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.Button.m_5691_(Button.java:40)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:16)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:111)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[18:38:56] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[18:38:56] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[18:38:56] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[18:38:56] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_diamond[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/diamond","count":2} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_lead[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/lead","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_zinc[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/zinc","count":8} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'bonsaitrees3:sapling/allthemodium/soul[bonsaitrees3:sapling]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:sapling
-[18:38:56] [WARN ] Failed to parse recipe bonsaitrees3:sapling/allthemodium/soul[bonsaitrees3:sapling]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:sapling'
-[18:38:56] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gold_nugget_blackstone[integrateddynamics:squeezer]': {"tag":"forge:nuggets/gold","count":4} is not a valid result!
-[18:38:56] [WARN ] Failed to parse recipe 'create_confectionery:ruby_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
-[18:38:56] [WARN ] Failed to parse recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
-[18:38:56] [WARN ] Failed to parse recipe 'silentgear:azure_silver_dust_blasting[minecraft:blasting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
-[18:38:56] [WARN ] Failed to parse recipe silentgear:azure_silver_dust_blasting[minecraft:blasting]:
-[18:38:56] [ERR  ] java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
-[18:38:56] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-[18:38:56] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
-[18:38:57] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
-[18:38:57] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[18:38:57] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
-[18:38:57] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[18:38:57] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[18:38:57] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205185_(Minecraft.java:1876)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_100972_(CreateWorldScreen.java:246)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.Button.m_5691_(Button.java:40)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:16)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:111)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
-[18:38:57] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[18:38:57] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[18:38:57] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[18:38:57] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[18:38:57] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_gold[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/gold","count":8} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_zinc[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/zinc","count":4} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'occultism:blasting/silver_ingot_from_dust[minecraft:blasting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: occultism:iesnium_ingot does not exist
-[18:38:57] [WARN ] Failed to parse recipe occultism:blasting/silver_ingot_from_dust[minecraft:blasting]:
-[18:38:57] [ERR  ] java.lang.IllegalStateException: Item: occultism:iesnium_ingot does not exist
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
-[18:38:57] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
-[18:38:57] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
-[18:38:57] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[18:38:57] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
-[18:38:57] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[18:38:57] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[18:38:57] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205185_(Minecraft.java:1876)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.m_100972_(CreateWorldScreen.java:246)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.Button.m_5691_(Button.java:40)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractButton.m_5716_(AbstractButton.java:16)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractWidget.m_6375_(AbstractWidget.java:111)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
-[18:38:57] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
-[18:38:57] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[18:38:57] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[18:38:57] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[18:38:57] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[18:38:57] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[18:38:57] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gold_nugget_blackstone[integrateddynamics:mechanical_squeezer]': {"tag":"forge:nuggets/gold","count":4} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_nickel[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/nickel","count":8} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_prismarine[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/prismarine"} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'duneons:axecraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:57] [WARN ] Failed to parse recipe duneons:axecraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_iron[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/iron","count":8} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'duneons:craftknightchestplate[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:57] [WARN ] Failed to parse recipe duneons:craftknightchestplate[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:strengtheniron'
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_gold[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/gold","count":4} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_uranium[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/uranium","count":8} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'duneons:rubycraft[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
-[18:38:57] [WARN ] Failed to parse recipe duneons:rubycraft[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_tin[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/tin","count":8} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_uranium[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/uranium","count":4} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'duneons:craftbarrelbeer[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
-[18:38:57] [WARN ] Failed to parse recipe duneons:craftbarrelbeer[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:deleted_mod_element'
-[18:38:57] [WARN ] Failed to parse recipe 'bloodmagic:meteor/myst_ag[bloodmagic:meteor]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:prosperity_shard'
-[18:38:57] [WARN ] Failed to parse recipe bloodmagic:meteor/myst_ag[bloodmagic:meteor]: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:prosperity_shard'
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_iron[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/iron","count":4} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_silver[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/silver","count":8} is not a valid result!
-[18:38:57] [WARN ] Failed to parse recipe 'duneons:rubyblockcraft1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
-[18:38:57] [WARN ] Failed to parse recipe duneons:rubyblockcraft1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'duneons:ruby'
-[18:38:57] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_quartz[integrateddynamics:squeezer]': {"tag":"forge:gems/quartz","count":2} is not a valid result!
-[18:38:57] [INFO ] Found 15461 recipes and 0 failed recipes in 686.6 ms
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shapeless': alltheores:raw_aluminum is not a valid result!
-[18:38:57] [ERR  ] Error occurred while handling event 'recipes': Wrapped java.lang.NullPointerException: Unknown recipe type: occultism:crushing (server_scripts:unify.js#323)
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': aeinfinitybooster:infinity_card is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': angelring:itemdiamondring is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': angelring:itemring is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': computercraft:turtle_advanced is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': computercraft:turtle_normal is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': computercraft:wired_modem is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': entangled:block is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': entangled:item is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': structures_compass:structures_compass is not a valid result!
-[18:38:57] [ERR  ] Failed to create recipe for type 'kubejs:shaped': mininggadgets:upgrade_empty is not a valid result!
-[18:38:58] [ERR  ] Error occurred while handling event 'recipes': TypeError: Cannot call method "infusion" of undefined (server_scripts:constants.js#83)
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': 4x alltheores:osmium_ingot is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extrastorage:iron_crafter is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': Item.empty is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': Item.empty is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': Item.empty is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:1024k_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': refinedstorage:4096k_fluid_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:4096k_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:16384k_fluid_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:16384k_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:65536k_fluid_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:65536k_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:262144k_fluid_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:262144k_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:1048576k_fluid_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:1048576k_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:infinite_fluid_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': extradisks:infinite_storage_part is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': rsinfinitybooster:infinity_card is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'kubejs:shaped': rftoolsbuilder:builder is not a valid result!
-[18:38:58] [ERR  ] Error occurred while handling event 'recipes': TypeError: Cannot call method "atmshaped_crafting" of undefined (server_scripts:mod_specific/_allthemods/allthemodium.js#10)
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:aluminum_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:osmium_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:platinum_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:zinc_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:uranium_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:tin_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:lead_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:silver_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:nickel_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:zinc_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:steel_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:invar_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:electrum_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:bronze_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:enderium_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:lumium_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:signalum_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:constantan_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': alltheores:brass_block is not a valid result!
-[18:38:58] [ERR  ] Failed to create recipe for type 'minecraft:stonecutting': occultism:silver_block is not a valid result!
-[18:38:58] [INFO ] Posted recipe events in 1.851 s
-[18:38:59] [INFO ] Modified & removed recipes in 225.4 ms
-[18:38:59] [WARN ] Error creating recipe kubejs:crusher/ore_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[{"chance":0.33,"output":{"item":"minecraft:air","count":1}}],"result":{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:ores/aluminum"},"energy":6000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:arcfurnace/ore_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[{"chance":0.5,"output":{"item":"minecraft:air","count":1}}],"results":[{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:ores/aluminum"},"time":200,"energy":102400}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:crusher/raw_ore_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[],"result":{"count":2,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:raw_ores/aluminum"},"energy":6000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:arcfurnace/raw_ore_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[],"results":[{"count":2,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:raw_ores/aluminum"},"time":100,"energy":25600}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:crusher/raw_block_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[],"result":{"count":18,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:storage_blocks/raw_aluminum"},"energy":54000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:arcfurnace/raw_block_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[],"results":[{"count":18,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:storage_blocks/raw_aluminum"},"time":900,"energy":230400}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:crusher/ingot_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[],"result":{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:ingots/aluminum"},"energy":3000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:arcfurnace/dust_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[],"results":[{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:dusts/aluminum"},"time":100,"energy":51200}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/inferium_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:inferium_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:inferium_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/air_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:air_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:air_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/earth_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:earth_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:earth_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/fire_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:fire_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:fire_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/water_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:water_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:water_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/dirt_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:dirt_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:dirt_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/wood_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:wood_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:wood_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/ice_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:ice_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:ice_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/stone_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:stone_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:stone_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/deepslate_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:deepslate_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:deepslate_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/aluminum_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:aluminum_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:aluminum_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/chicken_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:chicken_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:chicken_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/coal_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:coal_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:coal_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/copper_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:copper_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:copper_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/coral_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:coral_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:coral_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/cow_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:cow_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:cow_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/dye_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:dye_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:dye_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/fish_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:fish_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:fish_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/honey_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:honey_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:honey_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nature_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nature_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:nature_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nether_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nether_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:nether_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/pig_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:pig_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:pig_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/saltpeter_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:saltpeter_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:saltpeter_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/sheep_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:sheep_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:sheep_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/slime_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:slime_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:slime_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/squid_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:squid_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:squid_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/turtle_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:turtle_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:turtle_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/amethyst_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:amethyst_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:amethyst_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/silicon_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:silicon_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:silicon_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/sulfur_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:sulfur_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:sulfur_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/certus_quartz_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:certus_quartz_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:certus_quartz_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/creeper_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:creeper_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:creeper_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/glowstone_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:glowstone_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:glowstone_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/iron_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:iron_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:iron_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/lead_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:lead_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:lead_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nether_quartz_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nether_quartz_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:nether_quartz_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/obsidian_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:obsidian_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:obsidian_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/prismarine_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:prismarine_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:prismarine_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/rabbit_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:rabbit_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:rabbit_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/redstone_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:redstone_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:redstone_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/silver_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:silver_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:silver_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/skeleton_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:skeleton_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:skeleton_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/spider_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:spider_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:spider_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/tin_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:tin_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:tin_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/zinc_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:zinc_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:zinc_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/zombie_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:zombie_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:zombie_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/blaze_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:blaze_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:blaze_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/end_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:end_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:end_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/enderman_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:enderman_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:enderman_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/experience_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:experience_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:experience_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/ghast_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:ghast_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:ghast_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/gold_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:gold_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:gold_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/lapis_lazuli_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:lapis_lazuli_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:lapis_lazuli_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nickel_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nickel_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:nickel_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/osmium_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:osmium_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:osmium_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/diamond_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:diamond_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:diamond_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/emerald_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:emerald_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:emerald_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/netherite_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:netherite_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:netherite_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/wither_skeleton_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:wither_skeleton_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:wither_skeleton_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/platinum_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:platinum_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:platinum_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/uranium_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:uranium_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:uranium_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nether_star_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nether_star_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"item":"minecraft:air","count":1},"time":4750,"render":{"type":"crop","block":"mysticalagriculture:nether_star_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/dragon_egg_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:dragon_egg_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"item":"minecraft:air","count":1},"time":4750,"render":{"type":"crop","block":"mysticalagriculture:dragon_egg_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [WARN ] Error creating recipe kubejs:cloche/silentgear/flax_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"silentgear:flax_fiber","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"item":"minecraft:dirt","count":1},"time":600,"render":{"type":"crop","block":"silentgear:flax_plant"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[18:38:59] [INFO ] Added recipes in 13.99 ms
-[18:38:59] [INFO ] Added 26 recipes, removed 15 recipes, modified 0 recipes, with 72 failed recipes and 0 fall-backed recipes
+[20:27:23] [INFO ] Loaded script server_scripts:constants.js in 0.004 s
+[20:27:23] [INFO ] Loaded script server_scripts:tags.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:unify.js in 0.01 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/ae/ae.js in 0.0 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/angelring/angelring.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/buildinggadgets/buildinggadgets.js in 0.0 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/computercraft/computercraft.js in 0.0 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/entangled/entangled.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/explorers_compass/explorers_compass.js in 0.0 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/mininggadgets/mininggadgets.js in 0.0 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/mystical_agriculture/ma_crafting.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/mystical_agriculture/ma_crops.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/quarryplus/quarryplus.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/refinedstorage/refinedstorage.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/rftools/rftools.js in 0.0 s
+[20:27:23] [INFO ] Loaded script server_scripts:mod_specific/_allthemods/allthemodium.js in 0.001 s
+[20:27:23] [INFO ] Loaded script server_scripts:stonecutting.js in 0.001 s
+[20:27:23] [INFO ] Loaded 17/17 KubeJS server scripts in 0.03 s
+[20:27:23] [INFO ] Scripts loaded
+[20:27:23] [INFO ] Scanning recipes...
+[20:27:26] [ERR  ] Error occurred while handling event 'tags.entity_types': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:entity_type]: ResourceKey[minecraft:entity_type / artifacts:mimic] (server_scripts:tags.js#42)
+[20:27:26] [INFO ] [entity_types] Found 55 tags, added 25 objects, removed 0 objects
+[20:27:27] [ERR  ] Error occurred while handling event 'tags.blocks': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:block]: ResourceKey[minecraft:block / waystones:waystone] (server_scripts:tags.js#3)
+[20:27:27] [INFO ] [blocks] Found 752 tags, added 21 objects, removed 0 objects
+[20:27:27] [INFO ] [blocks] Found 752 tags, added 21 objects, removed 0 objects
+[20:27:28] [ERR  ] Error occurred while handling event 'tags.items': Wrapped java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:item]: ResourceKey[minecraft:item / mysticalagradditions:insanium_farmland] (server_scripts:tags.js#7)
+[20:27:37] [WARN ] Failed to parse recipe 'create_stuff_additions:brass_moped_recipe[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create:furnace_engine'
+[20:27:37] [WARN ] Failed to parse recipe create_stuff_additions:brass_moped_recipe[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'create:furnace_engine'
+[20:27:37] [WARN ] Failed to parse recipe 'mekanism:processing/bronze/ingot/from_infusing[mekanism:metallurgic_infusing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_ingot'
+[20:27:37] [WARN ] Failed to parse recipe mekanism:processing/bronze/ingot/from_infusing[mekanism:metallurgic_infusing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_ingot'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_emerald[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/emerald","count":2} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_aluminum[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/aluminum","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
+[20:27:37] [WARN ] Failed to parse recipe biggerreactors:compat/mekanism/rotary/superheated_sodium[mekanism:rotary]: com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
+[20:27:37] [WARN ] Failed to parse recipe 'mekanism:processing/bronze/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
+[20:27:37] [WARN ] Failed to parse recipe mekanism:processing/bronze/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_diamond[integrateddynamics:squeezer]': {"tag":"forge:gems/diamond"} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/dust_coal[integrateddynamics:mechanical_squeezer]': {"tag":"forge:dusts/coal"} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/dust_obsidian[integrateddynamics:mechanical_squeezer]': {"tag":"forge:dusts/obsidian","count":2} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_copper[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/copper","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_emerald[integrateddynamics:squeezer]': {"tag":"forge:gems/emerald"} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'create_stuff_additions:refined_radiance_exoskeleton_recipe[create:mechanical_crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'
+[20:27:37] [WARN ] Failed to parse recipe create_stuff_additions:refined_radiance_exoskeleton_recipe[create:mechanical_crafting]: com.google.gson.JsonSyntaxException: Unknown item 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'
+[20:27:37] [WARN ] Failed to parse recipe 'bonsaitrees3:sapling/allthemodium/demonic[bonsaitrees3:sapling]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:sapling
+[20:27:37] [WARN ] Failed to parse recipe bonsaitrees3:sapling/allthemodium/demonic[bonsaitrees3:sapling]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:sapling'
+[20:27:37] [WARN ] Failed to parse recipe 'create_confectionery:black_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[20:27:37] [WARN ] Failed to parse recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/dust_coal[integrateddynamics:squeezer]': {"tag":"forge:dusts/coal"} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'bonsaitrees3:soil/allthemodium/ancient_grass[bonsaitrees3:soil]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:soil
+[20:27:37] [WARN ] Failed to parse recipe bonsaitrees3:soil/allthemodium/ancient_grass[bonsaitrees3:soil]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:soil'
+[20:27:37] [WARN ] Failed to parse recipe 'mekanism:processing/steel/enriched_iron_to_dust[mekanism:metallurgic_infusing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
+[20:27:37] [WARN ] Failed to parse recipe mekanism:processing/steel/enriched_iron_to_dust[mekanism:metallurgic_infusing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
+[20:27:37] [WARN ] Failed to parse recipe 'create_confectionery:white_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[20:27:37] [WARN ] Failed to parse recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_lapis[integrateddynamics:squeezer]': {"tag":"forge:gems/lapis","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_osmium[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/osmium","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_silver[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/silver","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_quartz[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/quartz","count":3} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_nickel[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/nickel","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'silentgear:azure_silver_dust_smelting[minecraft:smelting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
+[20:27:37] [WARN ] Failed to parse recipe silentgear:azure_silver_dust_smelting[minecraft:smelting]:
+[20:27:37] [ERR  ] java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
+[20:27:37] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
+[20:27:37] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
+[20:27:37] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91200_(Minecraft.java:1872)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:473)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:330)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_6375_(WorldSelectionList.java:260)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractSelectionList.m_6375_(AbstractSelectionList.java:323)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:27:37] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[20:27:37] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+[20:27:37] [WARN ] Failed to parse recipe 'silentgear:crimson_iron_dust_smelting[minecraft:smelting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
+[20:27:37] [WARN ] Failed to parse recipe silentgear:crimson_iron_dust_smelting[minecraft:smelting]:
+[20:27:37] [ERR  ] java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
+[20:27:37] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
+[20:27:37] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
+[20:27:37] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91200_(Minecraft.java:1872)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:473)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:330)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_6375_(WorldSelectionList.java:260)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractSelectionList.m_6375_(AbstractSelectionList.java:323)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:27:37] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[20:27:37] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+[20:27:37] [WARN ] Failed to parse recipe 'mekanism:processing/bronze/dust/from_infusing[mekanism:metallurgic_infusing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
+[20:27:37] [WARN ] Failed to parse recipe mekanism:processing/bronze/dust/from_infusing[mekanism:metallurgic_infusing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:bronze_dust'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/dust_obsidian[integrateddynamics:squeezer]': {"tag":"forge:dusts/obsidian"} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'mekanism:processing/steel/ingot_to_dust[mekanism:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
+[20:27:37] [WARN ] Failed to parse recipe mekanism:processing/steel/ingot_to_dust[mekanism:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'alltheores:steel_dust'
+[20:27:37] [WARN ] Failed to parse recipe 'bonsaitrees3:sapling/allthemodium/ancient[bonsaitrees3:sapling]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:sapling
+[20:27:37] [WARN ] Failed to parse recipe bonsaitrees3:sapling/allthemodium/ancient[bonsaitrees3:sapling]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:sapling'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_osmium[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/osmium","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'create_confectionery:chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[20:27:37] [WARN ] Failed to parse recipe create_confectionery:chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_aluminum[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/aluminum","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_lead[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/lead","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_tin[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/tin","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_copper[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/copper","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'bonsaitrees3:soil/allthemodium/ancient_dirt[bonsaitrees3:soil]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:soil
+[20:27:37] [WARN ] Failed to parse recipe bonsaitrees3:soil/allthemodium/ancient_dirt[bonsaitrees3:soil]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:soil'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_lapis[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/lapis","count":12} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'silentgear:crimson_iron_dust_blasting[minecraft:blasting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
+[20:27:37] [WARN ] Failed to parse recipe silentgear:crimson_iron_dust_blasting[minecraft:blasting]:
+[20:27:37] [ERR  ] java.lang.IllegalStateException: Item: silentgear:crimson_iron_ingot does not exist
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
+[20:27:37] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
+[20:27:37] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
+[20:27:37] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91200_(Minecraft.java:1872)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:473)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:330)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_6375_(WorldSelectionList.java:260)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractSelectionList.m_6375_(AbstractSelectionList.java:323)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:27:37] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[20:27:37] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_diamond[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/diamond","count":2} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_lead[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/lead","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_zinc[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/zinc","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'bonsaitrees3:sapling/allthemodium/soul[bonsaitrees3:sapling]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: bonsaitrees3:sapling
+[20:27:37] [WARN ] Failed to parse recipe bonsaitrees3:sapling/allthemodium/soul[bonsaitrees3:sapling]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'bonsaitrees3:sapling'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gold_nugget_blackstone[integrateddynamics:squeezer]': {"tag":"forge:nuggets/gold","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'create_confectionery:ruby_chocolate_recipe_6[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[20:27:37] [WARN ] Failed to parse recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[20:27:37] [WARN ] Failed to parse recipe 'silentgear:azure_silver_dust_blasting[minecraft:blasting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
+[20:27:37] [WARN ] Failed to parse recipe silentgear:azure_silver_dust_blasting[minecraft:blasting]:
+[20:27:37] [ERR  ] java.lang.IllegalStateException: Item: silentgear:azure_silver_ingot does not exist
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
+[20:27:37] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
+[20:27:37] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
+[20:27:37] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91200_(Minecraft.java:1872)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:473)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:330)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_6375_(WorldSelectionList.java:260)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractSelectionList.m_6375_(AbstractSelectionList.java:323)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:27:37] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[20:27:37] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_gold[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/gold","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_zinc[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/zinc","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'occultism:blasting/silver_ingot_from_dust[minecraft:blasting]'! Falling back to vanilla: java.lang.IllegalStateException: Item: occultism:iesnium_ingot does not exist
+[20:27:37] [WARN ] Failed to parse recipe occultism:blasting/silver_ingot_from_dust[minecraft:blasting]:
+[20:27:37] [ERR  ] java.lang.IllegalStateException: Item: occultism:iesnium_ingot does not exist
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_44332_(SimpleCookingSerializer.java:32)
+[20:27:37] [ERR  ] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:31)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.SimpleCookingSerializer.m_6729_(SimpleCookingSerializer.java:11)
+[20:27:37] [ERR  ] 	at TRANSFORMER/forge@40.1.68/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:150)
+[20:27:37] [ERR  ] 	at TRANSFORMER/kubejs@1802.5.1-build.363/dev.latvian.mods.kubejs.recipe.RecipeEventJS.post(RecipeEventJS.java:251)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.handler$zze000$customRecipesHead(RecipeManager.java:3028)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:45)
+[20:27:37] [ERR  ] 	at TRANSFORMER/fastsuite@3.0.2/shadows.fastsuite.AuxRecipeManager.m_5787_(AuxRecipeManager.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:27:37] [ERR  ] 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_205125_(Minecraft.java:2081)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1908)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91200_(Minecraft.java:1872)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:473)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:330)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_6375_(WorldSelectionList.java:260)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.AbstractSelectionList.m_6375_(AbstractSelectionList.java:323)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:27)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:88)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:528)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:85)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:185)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:184)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl/org.lwjgl.system.JNI.invokeV(Native Method)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/org.lwjgl.glfw/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/com.mojang.blaze3d.systems.RenderSystem.m_69830_(RenderSystem.java:222)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1070)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:664)
+[20:27:37] [ERR  ] 	at TRANSFORMER/minecraft@1.18.2/net.minecraft.client.main.Main.main(Main.java:205)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[20:27:37] [ERR  ] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[20:27:37] [ERR  ] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/fmlloader@1.18.2-40.1.68/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:31)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[20:27:37] [ERR  ] 	at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[20:27:37] [ERR  ] 	at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gold_nugget_blackstone[integrateddynamics:mechanical_squeezer]': {"tag":"forge:nuggets/gold","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_nickel[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/nickel","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/gem_prismarine[integrateddynamics:mechanical_squeezer]': {"tag":"forge:gems/prismarine"} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_iron[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/iron","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_gold[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/gold","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_uranium[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/uranium","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_tin[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/tin","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_uranium[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/uranium","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'bloodmagic:meteor/myst_ag[bloodmagic:meteor]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:prosperity_shard'
+[20:27:37] [WARN ] Failed to parse recipe bloodmagic:meteor/myst_ag[bloodmagic:meteor]: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:prosperity_shard'
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/raw_iron[integrateddynamics:squeezer]': {"tag":"forge:raw_materials/iron","count":4} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:mechanical_squeezer/ore/raw_silver[integrateddynamics:mechanical_squeezer]': {"tag":"forge:raw_materials/silver","count":8} is not a valid result!
+[20:27:37] [WARN ] Failed to parse recipe 'integrateddynamics:squeezer/ore/gem_quartz[integrateddynamics:squeezer]': {"tag":"forge:gems/quartz","count":2} is not a valid result!
+[20:27:37] [INFO ] Found 15190 recipes and 0 failed recipes in 674.7 ms
+[20:27:37] [ERR  ] server_scripts:unify.js:205: Failed to create recipe for type 'kubejs:shapeless': alltheores:raw_aluminum is not a valid result!
+[20:27:37] [ERR  ] Error occurred while handling event 'recipes': Wrapped java.lang.NullPointerException: Unknown recipe type: occultism:crushing (server_scripts:unify.js#323)
+[20:27:37] [ERR  ] server_scripts:mod_specific/ae/ae.js:3: Failed to create recipe for type 'kubejs:shaped': aeinfinitybooster:infinity_card is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/angelring/angelring.js:4: Failed to create recipe for type 'kubejs:shaped': angelring:itemdiamondring is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/angelring/angelring.js:16: Failed to create recipe for type 'kubejs:shaped': angelring:itemring is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/computercraft/computercraft.js:5: Failed to create recipe for type 'kubejs:shaped': computercraft:turtle_advanced is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/computercraft/computercraft.js:10: Failed to create recipe for type 'kubejs:shaped': computercraft:turtle_normal is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/computercraft/computercraft.js:15: Failed to create recipe for type 'kubejs:shaped': computercraft:wired_modem is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/entangled/entangled.js:4: Failed to create recipe for type 'kubejs:shaped': entangled:block is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/entangled/entangled.js:9: Failed to create recipe for type 'kubejs:shaped': entangled:item is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/explorers_compass/explorers_compass.js:3: Failed to create recipe for type 'kubejs:shaped': structures_compass:structures_compass is not a valid result!
+[20:27:37] [ERR  ] server_scripts:mod_specific/mininggadgets/mininggadgets.js:3: Failed to create recipe for type 'kubejs:shaped': mininggadgets:upgrade_empty is not a valid result!
+[20:27:39] [ERR  ] Error occurred while handling event 'recipes': TypeError: Cannot call method "infusion" of undefined (server_scripts:constants.js#83)
+[20:27:39] [ERR  ] server_scripts:mod_specific/mystical_agriculture/ma_crops.js:33: Failed to create recipe for type 'kubejs:shaped': 4x alltheores:osmium_ingot is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:2: Failed to create recipe for type 'kubejs:shaped': extrastorage:iron_crafter is not a valid result!
+[20:27:39] [ERR  ] server_scripts:constants.js:34: Failed to create recipe for type 'kubejs:shaped': Item.empty is not a valid result!
+[20:27:39] [ERR  ] server_scripts:constants.js:34: Failed to create recipe for type 'kubejs:shaped': Item.empty is not a valid result!
+[20:27:39] [ERR  ] server_scripts:constants.js:34: Failed to create recipe for type 'kubejs:shaped': Item.empty is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:32: Failed to create recipe for type 'kubejs:shaped': extradisks:1024k_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:33: Failed to create recipe for type 'kubejs:shaped': refinedstorage:4096k_fluid_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:39: Failed to create recipe for type 'kubejs:shaped': extradisks:4096k_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:45: Failed to create recipe for type 'kubejs:shaped': extradisks:16384k_fluid_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:51: Failed to create recipe for type 'kubejs:shaped': extradisks:16384k_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:57: Failed to create recipe for type 'kubejs:shaped': extradisks:65536k_fluid_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:63: Failed to create recipe for type 'kubejs:shaped': extradisks:65536k_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:69: Failed to create recipe for type 'kubejs:shaped': extradisks:262144k_fluid_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:75: Failed to create recipe for type 'kubejs:shaped': extradisks:262144k_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:81: Failed to create recipe for type 'kubejs:shaped': extradisks:1048576k_fluid_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:87: Failed to create recipe for type 'kubejs:shaped': extradisks:1048576k_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:93: Failed to create recipe for type 'kubejs:shaped': extradisks:infinite_fluid_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:99: Failed to create recipe for type 'kubejs:shaped': extradisks:infinite_storage_part is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/refinedstorage/refinedstorage.js:123: Failed to create recipe for type 'kubejs:shaped': rsinfinitybooster:infinity_card is not a valid result!
+[20:27:39] [ERR  ] server_scripts:mod_specific/rftools/rftools.js:3: Failed to create recipe for type 'kubejs:shaped': rftoolsbuilder:builder is not a valid result!
+[20:27:39] [ERR  ] Error occurred while handling event 'recipes': TypeError: Cannot call method "atmshaped_crafting" of undefined (server_scripts:mod_specific/_allthemods/allthemodium.js#10)
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:aluminum_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:osmium_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:platinum_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:zinc_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:uranium_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:tin_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:lead_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:silver_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:nickel_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:zinc_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:steel_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:invar_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:electrum_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:bronze_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:enderium_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:lumium_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:signalum_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:constantan_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': alltheores:brass_block is not a valid result!
+[20:27:39] [ERR  ] server_scripts:stonecutting.js:6: Failed to create recipe for type 'minecraft:stonecutting': occultism:silver_block is not a valid result!
+[20:27:39] [INFO ] Posted recipe events in 1.818 s
+[20:27:39] [INFO ] Modified & removed recipes in 224.5 ms
+[20:27:39] [WARN ] Error creating recipe kubejs:crusher/ore_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[{"chance":0.33,"output":{"item":"minecraft:air","count":1}}],"result":{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:ores/aluminum"},"energy":6000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:arcfurnace/ore_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[{"chance":0.5,"output":{"item":"minecraft:air","count":1}}],"results":[{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:ores/aluminum"},"time":200,"energy":102400}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:crusher/raw_ore_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[],"result":{"count":2,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:raw_ores/aluminum"},"energy":6000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:arcfurnace/raw_ore_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[],"results":[{"count":2,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:raw_ores/aluminum"},"time":100,"energy":25600}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:crusher/raw_block_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[],"result":{"count":18,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:storage_blocks/raw_aluminum"},"energy":54000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:arcfurnace/raw_block_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[],"results":[{"count":18,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:storage_blocks/raw_aluminum"},"time":900,"energy":230400}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:crusher/ingot_aluminum[immersiveengineering:crusher]: {"type":"immersiveengineering:crusher","secondaries":[],"result":{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}},"input":{"tag":"forge:ingots/aluminum"},"energy":3000}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:arcfurnace/dust_aluminum[immersiveengineering:arc_furnace]: {"type":"immersiveengineering:arc_furnace","additives":[],"secondaries":[],"results":[{"count":1,"base_ingredient":{"item":"minecraft:air","count":1}}],"input":{"tag":"forge:dusts/aluminum"},"time":100,"energy":51200}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/inferium_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:inferium_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:inferium_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/air_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:air_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:air_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/earth_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:earth_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:earth_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/fire_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:fire_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:fire_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/water_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:water_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:water_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/dirt_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:dirt_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:dirt_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/wood_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:wood_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:wood_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/ice_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:ice_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:ice_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/stone_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:stone_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:stone_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/deepslate_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:deepslate_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier1"},"time":1000,"render":{"type":"crop","block":"mysticalagriculture:deepslate_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/aluminum_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:aluminum_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:aluminum_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/chicken_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:chicken_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:chicken_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/coal_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:coal_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:coal_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/copper_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:copper_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:copper_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/coral_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:coral_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:coral_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/cow_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:cow_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:cow_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/dye_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:dye_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:dye_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/fish_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:fish_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:fish_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/honey_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:honey_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:honey_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nature_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nature_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:nature_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nether_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nether_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:nether_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/pig_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:pig_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:pig_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/saltpeter_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:saltpeter_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:saltpeter_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/sheep_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:sheep_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:sheep_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/slime_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:slime_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:slime_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/squid_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:squid_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:squid_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/turtle_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:turtle_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:turtle_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/amethyst_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:amethyst_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:amethyst_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/silicon_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:silicon_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:silicon_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/sulfur_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:sulfur_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier2"},"time":1750,"render":{"type":"crop","block":"mysticalagriculture:sulfur_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/certus_quartz_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:certus_quartz_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:certus_quartz_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/creeper_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:creeper_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:creeper_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/glowstone_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:glowstone_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:glowstone_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/iron_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:iron_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:iron_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/lead_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:lead_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:lead_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nether_quartz_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nether_quartz_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:nether_quartz_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/obsidian_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:obsidian_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:obsidian_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/prismarine_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:prismarine_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:prismarine_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/rabbit_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:rabbit_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:rabbit_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/redstone_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:redstone_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:redstone_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/silver_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:silver_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:silver_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/skeleton_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:skeleton_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:skeleton_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/spider_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:spider_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:spider_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/tin_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:tin_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:tin_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/zinc_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:zinc_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:zinc_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/zombie_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:zombie_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier3"},"time":2500,"render":{"type":"crop","block":"mysticalagriculture:zombie_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/blaze_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:blaze_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:blaze_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/end_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:end_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:end_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/enderman_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:enderman_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:enderman_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/experience_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:experience_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:experience_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/ghast_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:ghast_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:ghast_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/gold_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:gold_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:gold_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/lapis_lazuli_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:lapis_lazuli_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:lapis_lazuli_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nickel_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nickel_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:nickel_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/osmium_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:osmium_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier4"},"time":3250,"render":{"type":"crop","block":"mysticalagriculture:osmium_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/diamond_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:diamond_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:diamond_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/emerald_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:emerald_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:emerald_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/netherite_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:netherite_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:netherite_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/wither_skeleton_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:wither_skeleton_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:wither_skeleton_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/platinum_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:platinum_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:platinum_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/uranium_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:uranium_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"tag":"misctags:farmland/tier5"},"time":4000,"render":{"type":"crop","block":"mysticalagriculture:uranium_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/nether_star_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:nether_star_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"item":"minecraft:air","count":1},"time":4750,"render":{"type":"crop","block":"mysticalagriculture:nether_star_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/mysticalagriculture/dragon_egg_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"mysticalagriculture:dragon_egg_essence","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"item":"minecraft:air","count":1},"time":4750,"render":{"type":"crop","block":"mysticalagriculture:dragon_egg_crop"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [WARN ] Error creating recipe kubejs:cloche/silentgear/flax_seeds[immersiveengineering:cloche]: {"type":"immersiveengineering:cloche","results":[{"item":"silentgear:flax_fiber","count":2}],"input":{"item":"minecraft:air","count":1},"soil":{"item":"minecraft:dirt","count":1},"time":600,"render":{"type":"crop","block":"silentgear:flax_plant"}}: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[20:27:39] [INFO ] Added recipes in 8.034 ms
+[20:27:39] [INFO ] Added 26 recipes, removed 15 recipes, modified 0 recipes, with 72 failed recipes and 0 fall-backed recipes

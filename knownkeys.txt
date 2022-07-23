@@ -75,3 +75,6 @@ key.drawMahoujin
 key.changeMysticCode
 key.settingsGUI
 tombstone.message.knowledge_of_death
+key.waila.config
+key.waila.show_overlay
+key.waila.toggle_liquid
